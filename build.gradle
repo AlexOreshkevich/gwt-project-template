@@ -24,9 +24,24 @@ apply plugin: 'eclipse'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+ext {
+    gwtVersion = "2.8.0"
+}
+
+dependencies {
+
+    runtime("com.google.gwt:gwt-servlet:$gwtVersion")
+    providedCompile("com.google.gwt:gwt-user:$gwtVersion")
+    providedCompile("com.google.gwt:gwt-dev:$gwtVersion")
+
+    testCompile 'junit:junit:4.12'
+}
+
 gwt {
     gwtVersion='2.8.0'
-    modules 'com.softeq.verizon.client.client.DeviceManager'
+    modules 'com.softeq.verizon.client.DeviceManager'
+
+    maxHeapSize = "8G"
 }
 
 
