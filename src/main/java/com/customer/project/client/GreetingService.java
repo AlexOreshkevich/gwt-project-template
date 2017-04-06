@@ -1,4 +1,4 @@
-package com.softeq.verizon.client.client;
+package com.customer.project.client;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;

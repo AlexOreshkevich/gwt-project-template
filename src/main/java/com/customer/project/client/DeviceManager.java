@@ -1,6 +1,6 @@
-package com.softeq.verizon.client.client;
+package com.customer.project.client;
 
-import com.softeq.verizon.client.shared.FieldVerifier;
+import com.customer.project.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;

@@ -8,7 +8,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.softeq.verizon.client.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>com.customer.project.server.GreetingServiceImpl</servlet-class>
   </servlet>
 
   <servlet-mapping>

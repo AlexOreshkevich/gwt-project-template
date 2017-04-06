@@ -1,7 +1,7 @@
-package com.softeq.verizon.client.server;
+package com.customer.project.server;
 
-import com.softeq.verizon.client.client.GreetingService;
-import com.softeq.verizon.client.shared.FieldVerifier;
+import com.customer.project.shared.FieldVerifier;
+import com.customer.project.client.GreetingService;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**

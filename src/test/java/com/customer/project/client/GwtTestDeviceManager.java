@@ -1,6 +1,6 @@
-package com.softeq.verizon.client.client;
+package com.customer.project.client;
 
-import com.softeq.verizon.client.shared.FieldVerifier;
+import com.customer.project.shared.FieldVerifier;
 
 import org.junit.Ignore;
 

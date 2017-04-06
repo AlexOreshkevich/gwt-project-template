@@ -1,4 +1,4 @@
-package com.softeq.verizon.client.shared;
+package com.customer.project.shared;
 
 /**
  * <p>

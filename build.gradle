@@ -34,12 +34,17 @@ dependencies {
     providedCompile("com.google.gwt:gwt-user:$gwtVersion")
     providedCompile("com.google.gwt:gwt-dev:$gwtVersion")
 
-    testCompile 'junit:junit:4.12'
+    testCompile 'junit:junit:4.+'
+}
+
+clean.doLast {
+    ant.delete(dir: "src/main/gwt-unitCache")
+    ant.delete(dir: "war")
 }
 
 gwt {
     gwtVersion='2.8.0'
-    modules 'com.softeq.verizon.client.DeviceManager'
+    modules 'com.customer.project.DeviceManager'
 
     maxHeapSize = "8G"
 }

@@ -1,4 +1,4 @@
-package com.softeq.verizon.client.client;
+package com.customer.project.client;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.AsyncCallback;
@@ -8,7 +8,7 @@ public interface GreetingServiceAsync
 
     /**
      * GWT-RPC service  asynchronous (client-side) interface
-     * @see com.softeq.verizon.client.client.GreetingService
+     * @see GreetingService
      */
     void greetServer( java.lang.String name, AsyncCallback<java.lang.String> callback );
 

@@ -5,8 +5,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.softeq.verizon</groupId>
-  <artifactId>dm-web</artifactId>
+  <groupId>com.customer.project</groupId>
+  <artifactId>gwt-project-template</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Archetype for GWT</name>
@@ -53,7 +53,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -72,13 +72,11 @@
         <executions>
           <execution>
           <configuration>
-              <extraJvmArgs>-Xmx12G</extraJvmArgs>
+              <extraJvmArgs>-Xmx8G</extraJvmArgs>
               <localWorkers>8</localWorkers>
             </configuration>
             <goals>
               <goal>compile</goal>
-              <!-- <goal>test</goal> -->
-             <!-- <goal>generateAsync</goal> -->
             </goals>
           </execution>
         </executions>
@@ -87,7 +85,7 @@
         <configuration>
           <runTarget>DeviceManager.html</runTarget>
           <modules>
-            <module>com.softeq.verizon.client.DeviceManager</module>
+            <module>com.customer.project.DeviceManager</module>
           </modules>
         </configuration>
       </plugin>
